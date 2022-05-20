@@ -1,0 +1,36 @@
+button{
+    background: aqua;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+input[type=text]{
+    padding: 7px;
+    border: 2px solid black;
+    background: rgb(178, 230, 236);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.add{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+.delete{
+    width: 60px;
+      column-count: 1;
+      background-color: rgb(243, 77, 77);
+}
+.edit{
+    width: 50px;
+      column-count: 1;
+      background-color: yellow;
+}
+thead{
+    background-color: blanchedalmond;
+}
+table tr th:nth-child(2),table tr td:nth-child(2){
+font-weight: bold;
+}
+td{
+    text-align: center;
+}
